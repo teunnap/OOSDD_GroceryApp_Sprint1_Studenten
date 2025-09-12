@@ -363,3 +363,22 @@ MigrationBackup/
 FodyWeavers.xsd
 
 .idea/
+
+# Editors/IDEs
+.vscode/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local configuration overrides
+*.local.json
+appsettings.*.local.json
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.s3db
